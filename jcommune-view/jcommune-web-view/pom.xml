@@ -289,7 +289,14 @@
         </dependencies>
       </plugin>
     </plugins>
-
+    <testResources>
+      <testResource>
+        <directory>${project.basedir}/src/main/webapp/WEB-INF</directory>
+      </testResource>
+      <testResource>
+        <directory>${project.basedir}/src/test/resources</directory>
+      </testResource>
+    </testResources>
     <finalName>jcommune</finalName>
   </build>
 
